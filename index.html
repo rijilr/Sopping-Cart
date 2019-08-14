@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="product.js"></script>
+    <script src="cart.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css";>
+    <title>Checkout</title>
+</head>
+<body onload="loadCart(); calcTotal();">
+<h1 class="blue-text text-darken-4">Checkout</h1>
+<section id="checkout" class="container">
+<h4> Item List</h4>
+<table id="checkout_table" class="highlighted blue-text text-darken-2">
+<div class="card-panel teal lighten-2 row">
+    <span class="col s3">Item</span>
+    <span class="col s3">Quantity</span>
+    <span class="col s3">Price</span>
+    <span class="col s3">Net Price</span>
+</div>
+<ul id="item_table" class="collapsible"></ul>
+</table>
+<div id="total">
+    
+    
+</div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

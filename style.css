@@ -1,0 +1,22 @@
+h1{
+    font:bolder 3rem Ubuntu,sans;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; 
+}
+#total{
+    display: flex;
+    justify-content: flex-end;
+    font: bolder 2rem Ubuntu;
+}
+.collap{
+    border: none;
+}
+.teal{
+    color: white;
+}
+.suggestion-row{
+    text-align: center;
+}
